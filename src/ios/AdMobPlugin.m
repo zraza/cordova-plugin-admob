@@ -200,6 +200,7 @@
     self.bannerView.adUnitID = pubId;
     self.bannerView.delegate = self;
     self.bannerView.rootViewController = self.viewController;
+    self.bannerView.backgroundColor = [UIColor blackColor];
 }
 
 - (void)createGADInterstitialWithPubId:(NSString *)pubId {
